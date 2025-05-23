@@ -1,0 +1,80 @@
+package com.jjmcoe;
+import java.util.*;
+public class main {
+	 public static void main(String[] args) {
+		 //without using new keyword
+	      String city_name="Delhi";
+	      String Metro_name="londan";
+	      String place="london";
+	      System.out.println(city_name);
+      System.out.println(Metro_name);
+	      System.out.println(place);
+	      
+	      // by using new keyword 
+	      String cityname="Delhi"; 
+	      String metro_name= new String ("Delhi");
+	      System.out.println(cityname);
+	      System.out.println(metro_name);
+	      
+	      //using new with char array
+	      char arr[]= {'j','a','v','a'};
+	      String str=new String (arr);
+	      System.out.println(str);
+	      
+	      //immutable string 
+      String city_name2="mumbai";
+	      city_name2.toUpperCase();
+      System.out.println(city_name2);
+	      //reference variable is overwritten
+	      String city_name1="delhi";
+	   city_name1 = city_name1.toUpperCase();
+	   System.out.println(city_name1);
+	   
+	   // method used in string 
+	   
+	   //length
+	    String myname;
+	    int l;
+	    System.out.println("enter the name");
+	    Scanner rd=new Scanner(System.in);
+        myname=rd.nextLine();
+	    l=myname.length();
+    System.out.println(l);   
+	    // concatenation
+	    System.out.println(myname.concat("Babar"));
+	    //upper case
+	    System.out.println(myname.toUpperCase());
+	    //lower case
+        System.out.println(myname.toLowerCase());
+//	    //trim
+	    String Name="    java        ";
+	    System.out.println(Name+"is language");
+	    System.out.println(Name.trim()+" is language");
+	   
+	   
+	   // substring method
+	   String name="rakesh sharma";
+	   System.out.println(name.substring(3));
+	   System.out.println(name.substring(2,6));
+	   
+	   // replace method
+	   String para="hii it me";
+	   System.out.println(para.replace("it", "that"));
+	   //startWith boolean value
+	   System.out.println(para.startsWith("hii"));
+	   System.out.println(para.startsWith("Hii"));
+	   //endsWith
+	   System.out.println(para.endsWith("me"));
+	   System.out.println(para.endsWith("Hii"));
+	   //isEmpty
+	   System.out.println(para.isEmpty());
+	   String nm=""; 
+	   System.out.println(nm.isEmpty());
+	   //indexOf
+	   System.out.println(para.indexOf("i"));
+	   //charAt
+	   System.out.println(para.charAt(4));
+	    
+	 
+}
+}

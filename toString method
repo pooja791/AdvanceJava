@@ -1,0 +1,29 @@
+package com.jjmcoe;
+
+ class Company2 {
+
+long Licience_no;
+double Turn_over;
+double Tax_paid;
+
+
+Company2 (long Licience_no,double Turn_over,double Tax_paid)
+ {
+	this.Licience_no=Licience_no;
+	this.Turn_over=Turn_over;
+	this.Tax_paid=Tax_paid;
+}
+ public String toString()
+ {
+	 return "Licience number:"+ Licience_no +" "+"turn over:"+Turn_over+" "+"total tax:"+Tax_paid;
+ }
+}
+ public class Company {
+public static void main(String[]args)
+	 {
+	 Company2 Cobj=new   Company2(229993546,5799.3,200.00);
+	 System.out.println("details:"+Cobj);
+	 }
+   }
+
+

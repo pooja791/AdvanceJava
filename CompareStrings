@@ -1,0 +1,42 @@
+package com.jjmcoe;
+
+public class cmpstring {
+
+	public static void main(String[] args) {
+		boolean cmp;
+		String Name1=new String ("pooja");
+		String Name2=new String ("babar");
+		cmp=Name1.equals(Name2);
+		if(cmp)
+			System.out.println("both having equal values");
+		else
+			System.out.println("both strings do not have equal values");
+		//case sensitive
+		String Name3=new String ("pooja");
+		String Name4=new String ("Pooja");
+		cmp=Name3.equals(Name4);
+		if(cmp)
+			System.out.println("both having equal values");
+		else
+			System.out.println("both strings do not have equal values");
+
+        // to ignore case 
+		String Name6=new String ("pooja");
+		String Name5=new String ("Pooja");
+		cmp=Name6.equalsIgnoreCase(Name5);
+		if(cmp)
+			System.out.println("both having equal values");
+		else
+			System.out.println("both strings do not have equal values");
+     // both are equal
+		String Name7=new String ("pooja");
+		String Name8=new String ("pooja");
+		cmp=Name7.equals(Name8);
+		if(cmp)
+			System.out.println("both having equal values");
+		else
+			System.out.println("both strings do not have equal values");
+		
+	}
+
+}

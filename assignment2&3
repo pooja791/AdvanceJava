@@ -1,0 +1,36 @@
+package com.jjmcoe;
+import java.util.*;
+public class Assign1_2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//assignment1
+		String subject=new String();
+		Scanner rd=new Scanner(System.in);
+		System.out.println("Enter subject");
+		subject=rd.nextLine();
+		int l;
+		l=subject.length();
+		System.out.println(l);
+		System.out.println(subject.toLowerCase());
+		System.out.println(subject.toUpperCase());
+		String name=new String("   poooja      ");
+		System.out.println(name);
+		System.out.println(name.trim());
+		
+		//assignment
+		//substring
+		String Myname=new String("pooja babar");
+		Myname=Myname.replace("o", "x");
+		System.out.println("new string :"+Myname);
+		System.out.println(Myname.indexOf("b"));
+		System.out.println(Myname.charAt(4));
+		System.out.println(Myname.startsWith("pooja"));
+		System.out.println(Myname.endsWith("pooja"));
+		System.out.println(Myname.substring(3,6));
+		
+		
+				
+	}
+
+}

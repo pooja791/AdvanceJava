@@ -1,0 +1,19 @@
+package com.jjmcoe;
+
+public class stringBuffer {
+  
+	public static void main(String[]args) {
+//		StringBuffer Student=new StringBuffer("science");
+//		Student.append("it is");
+//		System.out.println("after append"+Student);
+//		String student2=new String ("mathematics");
+//		student2.replace("a", "x");
+//		System.out.println("after replace"+student2);
+		StringBuilder Student=new StringBuilder("science");
+		Student.append("it is");
+		System.out.println("after append"+Student);
+		String student2=new String ("mathematics");
+		student2.replace("a", "x");
+		System.out.println("after replace"+student2);
+	}
+}

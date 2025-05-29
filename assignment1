@@ -1,0 +1,17 @@
+package com.jjmcoe;
+import java.util.*;
+public class Assign1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+   char subject1[]= {'p','h','y','s','i','c','s'};
+   char subject2[]= {'m','a','t','h','s'};
+   String sub1=new String(subject1);
+   String sub2=new String(subject2);
+   System.out.println(sub1);
+
+   System.out.println(sub2);
+   
+	}
+
+}
